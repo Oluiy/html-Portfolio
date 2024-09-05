@@ -1,25 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-</head>
-<body>
-    <h1>Akinboyewa Iyanuoluwa</h1>
-    <img src="../Portfolio/myImage.jpeg" alt="MY IMAGE" height="220" >
-    <hr>
-    <h2>Summary</h2>
-    <p>I am a Software/Automation Engineer. I'm a very hardworking, diligent and dedicated individual with great problem solving skills and willingness to learn more. I also have great Leadership skills.</p>
-    <hr>
-    <h2>Education</h2>
-    <p draggable="true">Bachelor of science, Bsc. Computer Science - (2023-2027)</p>
-    <hr>
-    <h2>Work Experience</h2>
-    <p>No work experience yet.</p>
-    <hr>
-    <h2>Skills</h2>
-    <ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Résùmė</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <a id="top"></a>
+    <div class="flex flex-col w-full h-full">
+      <nav
+        class="w-[175px] h-[56px] bottom-[calc(20px+env(safe-area-inset-top))] left-1/2 translate-x-[-50%] bg-white  bg-opacity-75 border border-grey-400 md:rounded-3xl hover:bg-green-600 fixed" >
+        <div class="w-full h-full z-[30px] flex flex-col">
+          <div class="flex flex-row w-full gap-8">
+            <a href="./contact.html"
+              ><p class="mt-[15px] ml-[20px]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-house"
+                >
+                  <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                  <path
+                    d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                  />
+                </svg>
+              </p>
+              <!--<p class="ml-[10px]">Home</p>-->
+            </a>
+            <a href="#" class="mt-[15px]"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-contact"
+              >
+                <path d="M16 2v2" />
+                <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
+                <path d="M8 2v2" />
+                <circle cx="12" cy="11" r="3" />
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+              </svg>
+              <!-- <p class="">contact</p> --></a
+            >
+
+            <a href="#top" class="ml-[0px] mt-[15px]"><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-menu"
+              >
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" /></svg
+            ></a>
+          </div>
+        </div>
+      </nav>
+      <!-- <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="lucide lucide-workflow"
+    >
+      <rect width="8" height="8" x="3" y="3" rx="2" />
+      <path d="M7 11v4a2 2 0 0 0 2 2h4" />
+      <rect width="8" height="8" x="13" y="13" rx="2" />
+    </svg> -->
+      <h1 class="text-center text-[40px]" >
+        Iyanuoluwa Akinboyewa
+      </h1>
+      <img
+        src="./myImage.jpeg"
+        alt="MY IMAGE"
+        class="w-[20px] h-[30px] border rounded-3xl"
+      />
+      <hr />
+      <h2 class="">Summary</h2>
+      <p>
+        I am a Software/Automation Engineer. I'm a very hardworking, diligent
+        and dedicated individual with great problem solving skills and
+        willingness to learn more. I also have great Leadership skills.
+      </p>
+      <hr />
+      <h2>Education</h2>
+      <p draggable="true">
+        Bachelor of science, Bsc. Computer Science - (2023-2027)
+      </p>
+      <hr />
+      <h2>Work Experience</h2>
+      <p>No work experience yet.</p>
+      <hr />
+      <h2>Skills</h2>
+      <ul>
         <li>HTML5</li>
         <li>CSS</li>
         <li>JavaScript</li>
@@ -27,20 +125,22 @@
         <li>Communication Skills</li>
         <li>Listening Skills</li>
         <li>Leadership Skills</li>
-    </ul>
-    <hr>
-    <h2>Awards and Certifications</h2>
-    <ul>
+      </ul>
+      <hr />
+      <h2>Awards and Certifications</h2>
+      <ul>
         <li>Microsodt word certificate</li>
         <li>Best Graduating Student(class of 2027)- Covenant University</li>
         <li>Udemy web developer bootcamp certificate</li>
-    </ul>
-    <hr>
-    <h2>Others</h2>
-    <ul>
+      </ul>
+      <hr />
+      <h2>Others</h2>
+      <ul>
         <li><a href="../Portfolio/myHobbies.html">My Hobbies</a></li>
         <li><a href="../Portfolio/contact.html">Contact Me</a></li>
-    </ul>
-    <p>© Iyanuoluwa Akinboyewa. All rights reserved.</p>
-</body>
+      </ul>
+      <p>© Iyanuoluwa Akinboyewa. All rights reserved.</p>
+    </div>
+  </body>
 </html>
+<!-- animate-pulse transition ease-in-out duration-700 opacity-75 -->
